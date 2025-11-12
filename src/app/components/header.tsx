@@ -112,7 +112,7 @@ export default function Header() {
               Contact
             </Link>
             <Link
-              href="/login"
+              href="/register"
               className="text-[#E11C22] hover:text-red-200 font-semibold"
               onClick={() => setIsOpen(false)}
             >
@@ -179,7 +179,7 @@ export default function Header() {
 
         {/* Navigasi login */}
         <Link
-          href="/login"
+          href="/register"
           className="hidden md:flex bg-[#E11C22] text-white py-2 px-4 rounded-full "
         >
           Login
